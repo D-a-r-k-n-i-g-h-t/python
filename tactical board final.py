@@ -26,7 +26,7 @@ LIGHT_GRAY = (200, 200, 200)
 toolbar_height = 50
 
 # Define the field rectangle (inside margins)
-field_margin = 50
+field_margin = 0
 field_rect = pygame.Rect(field_margin, field_margin + toolbar_height,
                            WIDTH - 2 * field_margin, HEIGHT - 2 * field_margin - toolbar_height)
 
